@@ -1,0 +1,69 @@
+header {
+    background-image: url("../img/filmes.png");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+}
+
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__image {
+    width: 90px;
+    height: 70px;
+}
+
+.logo__titulo {
+    font-family: "Delicious Handraw";
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav {
+    grid-column: 1/11;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 16px;
+    display: inline-block;
+    color: white;
+}
+
+a {
+    font-family: "Noto Sans";
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-family: "Noto Sans";
+    font-size: 4rem;
+    color:white;
+    grid-row-start: 5;
+    grid-column: 2/8;
+}
+
+h2 {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+    grid-row-start: 7;
+    grid-column: 2/8;
+
+}
+
+
